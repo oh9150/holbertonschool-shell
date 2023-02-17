@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z{a..m}{p..z}}"\n"
+echo -e {a..m}{a..z}"\n" o{a-m}"\n" o{p-z}"\n" {p-z}{a-z}"\n"
