@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..n}{a..z}"\n" o{a..n}"\n" o{p..z}"\n" {p..z}{a..z}"\n" | tr -d ' '
+echo -e {a..n}{a..z}"\n" o{a..n}"\n" o{p..z}"\n" {p..z}{a..z}"\n" | tr -d ' ' | truncate -s -1
