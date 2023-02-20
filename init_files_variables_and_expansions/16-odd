@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" | grep -v '^2' | grep -v '^4' | grep -v '^6' | grep -v '^8' | grep -v '^10' | grep -v '^12' | grep -v '^14' | grep -v '^16' | grep -v '^18' | grep -v '^20' #| cut -d : -f 2
+grep -n "" | grep -v '^2' | grep -v '^4' | grep -v '^6' | grep -v '^8' | grep -v '^10' | grep -v '^12' | grep -v '^14' | grep -v '^16' | grep -v '^18' | grep -v '^20' | cut -d : -f 2
