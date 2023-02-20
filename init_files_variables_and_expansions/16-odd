@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" | grep [1,3,5,7,9]: | cut -d : -f 2i
+grep -n "" | grep '1\|3\|5\|7\|9' | cut -d : -f 2
